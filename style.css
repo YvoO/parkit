@@ -1,0 +1,126 @@
+body {
+  background-image: url("background-image-75.jpg");
+  background-size: cover;
+  height: 100%; }
+
+.login {
+  color: white; }
+
+.navbar {
+  background-color: #333; }
+
+.navbar-inverse {
+  background-image: none;
+  border: 0px solid black; }
+  .navbar-inverse a {
+    color: white !important;
+    font-weight: 900; }
+
+a {
+  text-decoration: none !important; }
+
+.nummerplaat {
+  background-color: #f4be04;
+  border: 2px solid black;
+  border-radius: 10px;
+  color: black;
+  text-align: center;
+  font-size: 2em;
+  max-width: 200px; }
+
+.steden {
+  background-color: #333;
+  height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+  margin-top: 10px;
+  color: white; }
+  .steden h4 {
+    color: white;
+    padding-top: 40px; }
+
+.btn-succes {
+  background-color: #00E676; }
+
+.intro {
+  background-color: #2196F3; }
+
+.submenu {
+  background-color: #333;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+  margin-top: 10px;
+  color: white; }
+  .submenu h4 {
+    color: white;
+    padding-top: 20px; }
+
+.redbtn {
+  background-color: #E53935;
+  height: 60px;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 6px;
+  margin-top: 10px;
+  color: white; }
+  .redbtn h4 {
+    color: white;
+    padding-top: 20px; }
+
+.jumbotron {
+  background-color: #2196F3;
+  color: white; }
+
+.panel {
+  border: 0px solid grey; }
+  .panel .panel-body {
+    background-color: #2196F3 !important;
+    border-radius: 3px; }
+  .panel .panel-heading {
+    background-color: #333 !important;
+    color: white !important;
+    border: 0px solid grey;
+    font-weight: 900; }
+
+.form-control {
+  background-color: rgba(255, 255, 255, 0.95) !important;
+  border: 0px solid grey !important;
+  padding: 20px 0 20px 10px !important;
+  margin-bottom: 5px; }
+  .form-control select {
+    background-color: rgba(255, 255, 255, 0.95) !important;
+    border: 0px solid grey !important;
+    padding: 20px !important; }
+
+.addy {
+  padding: 10px 0 10px 10px;
+  background-color: #00E676;
+  border: 0px solid #00E676;
+  width: 100%; }
+
+.tableId {
+  width: 5%; }
+
+.tableName {
+  width: 25%; }
+
+.tableEmail {
+  width: 25%; }
+
+.tablePassword {
+  width: 20%; }
+
+.tableSpots {
+  width: 10%; }
+
+.tableDelete {
+  width: 15%; }
+
+.tablePlate {
+  width: 25%; }
+
+.tableNote {
+  width: 45%; }

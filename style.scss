@@ -1,0 +1,138 @@
+$main-color: #333;
+$tint: #2196F3;
+$grey: #CFD8DC;
+$groen: #00E676;
+
+body {
+	background-image: url('background-image-75.jpg');
+	background-size: cover;
+	height: 100%;
+}
+
+.login {
+	color: white;
+}
+
+.navbar {
+	background-color: $main-color;
+}
+.navbar-inverse{
+	background-image: none;
+	border: 0px solid black;
+	a {
+		color: white !important;
+		font: {
+			weight: 900;
+		}
+	}
+}
+
+a {
+	text-decoration: none !important;
+}
+
+.nummerplaat {
+	background-color: #f4be04;
+	border: 2px solid black;
+	border-radius: 10px;
+	color: black;
+	text-align: center;
+	font-size: 2em;	
+	max-width: 200px;
+}
+.steden {
+	background-color: $main-color;
+	height: 100px;
+	text-align: center;
+	vertical-align: middle;	
+	border-radius: 6px;
+	margin-top: 10px;
+	color: white;
+	h4 {
+		color: white;
+		padding-top: 40px;
+	}
+}
+.btn-succes {
+	background-color: $groen;
+}
+
+.intro {
+	background-color: $tint;
+}
+
+.submenu {
+	background-color: $main-color;
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;	
+	border-radius: 6px;
+	margin-top: 10px;
+	color: white;
+	h4 {
+		color: white;
+		padding-top: 20px;
+	}
+}
+
+.redbtn {
+	background-color: #E53935;
+	height: 60px;
+	text-align: center;
+	vertical-align: middle;	
+	border-radius: 6px;
+	margin-top: 10px;
+	color: white;
+	h4 {
+		color: white;
+		padding-top: 20px;
+	}
+}
+
+.jumbotron {
+	background-color: $tint;
+	color: white;
+}
+.panel {
+	border: 0px solid grey;
+	.panel-body {
+		background-color: $tint !important;
+		border-radius: 3px;
+	}
+	.panel-heading{
+		background-color: $main-color !important;
+		color: white !important;
+		border: 0px solid grey;
+		font: {
+			weight: 900;
+		}
+	}
+}
+
+.form-control {
+    background-color: rgba(255,255,255, 0.95) !important;
+    border: 0px solid grey !important;
+    padding: 20px 0 20px 10px !important;
+    margin-bottom: 5px;
+    select {
+        background-color: rgba(255,255,255, 0.95) !important;
+	    border: 0px solid grey !important;
+	    padding: 20px !important;	
+    }
+}
+
+.addy {
+	padding: 10px 0 10px 10px; 
+	background-color: $groen;
+	border: 0px solid $groen;
+	width: 100%;
+}
+
+.tableId {width: 5%;}
+.tableName {width: 25%;}
+.tableEmail {width: 25%;}
+.tablePassword {width: 20%;}
+.tableSpots{width: 10%;}
+.tableDelete{width: 15%;}
+.tablePlate {width: 25%;}
+.tableNote {width: 45%;}
